@@ -12,3 +12,8 @@ Node的事件模块目前只包含一个类：EventEmitter。这个类在Node的
 ### 基础用法
 
 要使用EventEmitter,首先必须先继承于它。
+
+
+### 总结：
+
+在这一章，学会了继承和多继承如何使用EventEmitter，以及如何在不使用domain的情况下管理错误。

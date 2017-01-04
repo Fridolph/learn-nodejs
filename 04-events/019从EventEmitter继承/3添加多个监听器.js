@@ -11,7 +11,7 @@ util.inherits(MusicPlayer, events.EventEmitter);
 var musicPlayer = new MusicPlayer();
 
 musicPlayer.on('play', function(track) {
-  this.playing = true,;
+  this.playing = true;
 });
 
 musicPlayer.on('stop', function() {

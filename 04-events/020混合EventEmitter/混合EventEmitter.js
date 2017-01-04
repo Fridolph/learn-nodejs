@@ -2,8 +2,9 @@ var EventEmitter = require('events').EventEmitter;
 
 function MusicPlayer(track) {
   this.track = track;
-  shit.playing = false;
+  this.playing = false;
 
+  // 这个是用于拷贝相关属性的for-in循环
   for (var methodName in EventEmitter.prototype) {
     this[methodName] = EventEmitter.prototype[methodName];
   }
@@ -27,3 +28,4 @@ musicPlayer.on('play', function() {
 });
 
 musicPlayer.emit('play');
+
