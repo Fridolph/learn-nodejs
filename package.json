@@ -14,5 +14,10 @@
   "bugs": {
     "url": "https://github.com/Fridolph/learn-nodejs/issues"
   },
-  "homepage": "https://github.com/Fridolph/learn-nodejs#readme"
+  "homepage": "https://github.com/Fridolph/learn-nodejs#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "connect": "^3.5.0",
+    "jsdom": "^9.9.1"
+  }
 }
